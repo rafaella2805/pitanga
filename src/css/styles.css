@@ -1,0 +1,440 @@
+/*-----Fontes do site-----*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+	font-family: Smackover;
+	src: url(../src/fonts/Smackover.ttf) format('truetype'),
+		url(../src/fonts/Smackover.otf) format('opentype');
+}
+body{
+	font-family: 'Poppins', sans-serif !important;
+	font-weight: 400 !important;
+}
+/*-----CSS do personalizado da Landpage Pitanga-----*/
+.header-landpage{
+	background-image: url('../assets/banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	height: 395px;
+}
+.header-landpage h1 {
+	width: 500px;
+	margin: 0 auto;
+}
+.header-landpage h1 img{
+	width: auto;
+	height: 500px;
+	position: relative;
+    top: -50px;
+}
+.texto-principal{
+	position: relative;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.iphones{
+	position: absolute;
+	top: -145px;
+	left: 0;
+}
+.iphones img{
+	width: auto;
+	height: 600px;
+}
+.texto{
+	width: 50%;
+	position: relative;
+    left: 48%;
+}
+.texto h1{
+	font-family: Smackover, sans-serif;
+	font-size: 80px;
+	color: #D93400;
+}
+.texto p{
+	text-align: justify;
+	line-height: 28px;
+}
+.texto .first-child{
+	padding-top: 20px !important;
+}
+.fazerParte{
+	background-image: url('../assets/foto.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	min-height: 540px;
+	display: block !important;
+}
+.box-facaParte{
+	background-color: #4B9719;
+	width: 35%;
+	float: right;
+	margin-right: 150px;
+	margin-bottom: 30px;
+	border-radius: 0 0 30px 30px;
+	padding: 20px 20px 50px 20px;
+	-webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.36);
+	-moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.36);
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.36);
+	min-height: 500px;
+	padding-top: 60px;
+}
+.box-facaParte p{
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.box-facaParte b{
+	font-weight: 700;
+}
+.box-facaParte label{
+	color: #ffffff;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.box-facaParte .form-facaParte .form-control{
+	background-color: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0; 
+	color: #ffffff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 30px;
+}
+.box-facaParte .form-facaParte .form-control:focus{
+    border-color: #ffffff !important;
+    box-shadow: none !important;
+    border-width: 2px !important;
+}
+button.btn-custom-facaParte{
+	background-color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 30px;
+	color: #4B9719;
+	border-radius: 50px;
+}
+.box-facaParte .rede-social{
+	width: 100%;
+	display: block;
+/*	margin-top: 20px;
+*/	position: relative;
+	top: 0;
+}
+.box-facaParte .rede-social ul{
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+.box-facaParte .rede-social ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+.box-facaParte .rede-social ul li:last-child{
+	margin-right: 0;
+}
+.box-facaParte .rede-social ul li a img{
+	width: auto;
+	height: 60px;
+	transition: opacity 0.3s;
+}
+.box-facaParte .rede-social ul li a:hover{
+	cursor: pointer;
+}
+.box-facaParte .rede-social ul li a:hover {
+	opacity: 0.5;
+}
+.sucesso-cad{
+	font-size: 16px;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*-----CSS do personalizado do header-----*/
+header.custom-header {
+  background-color: #D93400;
+  padding: 20px; 
+  max-height: 197px;
+}
+header.custom-header .navbar{
+	padding: 0;
+	width: 100%;
+}
+.custom-header .navbar-light .navbar-nav .show > .nav-link, 
+.custom-header .navbar-light .navbar-nav .active > .nav-link, 
+.custom-header .navbar-light .navbar-nav .nav-link.show, 
+.custom-header .navbar-light .navbar-nav .nav-link.active{
+	color: white;
+}
+.custom-header .navbar-light .navbar-nav .nav-link{
+	color: white;
+	margin-right: 10px;
+}
+.custom-header .navbar-light .navbar-nav .nav-link:hover, 
+.custom-header .navbar-light .navbar-nav .nav-link:focus,
+.custom-header .btn-search.btn-outline-primary:hover{
+	color: white;
+	background-color: #E06640;
+	border-radius: 10px;
+}
+.custom-header .btn-search .bi-search{
+	font-size: 24px;
+}
+.custom-header .btn-search.btn-outline-primary{
+	color: white;
+	border-color: transparent; 
+}
+.custom-header .navbar-nav .dropdown-menu{
+	width: 100%;
+}
+.custom-header .dropdown-menu {
+	min-width: 100%;
+    top: 100%;
+    color: white;
+    background-color: #D93400;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+}
+.custom-header .dropdown-item {
+    font-weight: 300;
+    color: white;
+    padding: 10px 20px;
+}
+.custom-header .dropdown-item:hover, 
+.custom-header .dropdown-item:focus {
+    color: white;
+	background-color: #E06640;
+}
+.custom-header .search-menu.form-inline .form-control{
+	display: none;
+}
+.custom-header .menu-apoio{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.custom-header .menu-principal{
+	position: relative;
+	bottom: -40px;
+}
+.custom-header .menu-apoio .navbar-nav .btn-custom{
+	padding: 6px 20px;
+	border-radius: 50px;
+	border: none;
+	background-color: #4B9719;
+}
+.custom-header .menu-apoio .navbar-nav .btn-icon{
+	padding-right: 5px;
+	margin-bottom: 2px;
+}
+.custom-header .navbar-light .navbar-nav .nav-link.btn-custom:hover, 
+.custom-header .navbar-light .navbar-nav .nav-link.btn-custom:focus{
+	background-color: #83C757;
+	border-radius: 50px;
+	border: none; 
+}
+.custom-header .just-mobile{
+	display: none !important;
+}
+.buttons-mobile{
+	display: none;
+}
+span.navbar-toggler-icon{
+	color: #ffffff;
+}
+.mobile{
+	display: none;
+}
+.teste{
+	margin-right: -15px;
+	margin-left: -15px;
+}
+/*-------------------   Medias Queries  -----------------------*/
+
+@media screen and (max-width: 1199px){
+	.box-facaParte .rede-social{
+		top: 0;
+	}
+	.box-facaParte .rede-social ul li a img{
+		height: 33px;
+	}
+	.iphones img{
+		width: 400px;
+		height: auto;
+	}
+	
+	.texto h1 {
+	    font-size: 40px;
+	}
+	.header-landpage{
+		height: 280px;
+	}
+	.header-landpage h1 {
+		width: auto;
+	}
+	.header-landpage h1 img {
+	    height: 300px;
+	    top: 0;
+	}
+
+}
+
+@media screen and (max-width: 992px){
+	.iphones img{
+		width: 300px;
+		height: auto;
+	}
+	
+	.header-landpage.custom-header{
+		max-height: 100%;
+	}
+	.custom-header .navbar-light .navbar-toggler{
+		color: #ffffff;
+    	border-color: #ffffff;
+	}
+	.custom-header .navbar-light .navbar-toggler span.navbar-toggler-icon{
+		color: #ffffff;
+		background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='#ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+	}
+	.buttons-mobile{
+		display: flex;
+	}	
+	.custom-header .menu-principal{
+		top: -40px;
+		display: grid;
+	}
+	.menu-principal .navbar-nav{
+		width: 250px;
+		float: right;
+		text-align: right;
+		top: 0;
+	}
+	.menu-principal .search-menu{
+		display: none;
+	} 
+	.custom-header .navbar-light .navbar-nav .nav-link:hover, 
+	.custom-header .navbar-light .navbar-nav .nav-link:focus,
+	.custom-header .btn-search.btn-outline-primary:hover{
+		color: white;
+		background-color: transparent;
+		border-radius: 0;
+		text-decoration: underline;
+	}
+	.custom-header .dropdown-menu {
+		text-align: right;
+	}
+	.custom-header .dropdown-item:hover, 
+	.custom-header .dropdown-item:focus {
+		background-color: transparent;
+		text-decoration: underline; 
+	}
+	.menu-apoio{
+		display: none;
+	}
+	.custom-header .just-mobile{
+		display: block !important;
+	}
+	/*form.search-menu{
+		position: absolute;
+    	right: 0;
+	    bottom: -50px;
+	}*/
+}
+@media screen and (max-width: 819px){
+	.iphones{
+		left:-80px;
+	}
+	.iphones img{
+		width: 300px;
+		height: auto;
+	}
+	.fazerParte{
+		background-position-x: -100px; 
+	}
+	.box-facaParte{
+		width: 	50%;
+		margin-right: 80px
+	}
+	.texto {
+	    width: 60%;
+	    left: 240px;
+	}
+	.texto p {
+	    line-height: 20px;
+	    font-size: 14px;
+	}
+	.box-facaParte p{
+		font-size: 14px;
+		line-height: 20px;
+	}
+}
+@media screen and (max-width: 650px){
+	.box-facaParte .rede-social{
+		top: 0;
+	}
+	.iphones{
+		left:-40px;
+		top: -100px;
+		position: relative;
+	}
+	.iphones img {
+	    margin: 0 auto;
+	    display: block;
+	}
+	.texto {
+		width: 100%;
+	    left: 0;
+	    margin: 0 auto;
+	}	
+	.texto h1{
+		text-align: center;
+	}
+	.fazerParte{
+		background-position-x: -200px; 
+	}
+}
+@media screen and (max-width: 500px){
+	.iphones{
+		left: 0;
+	}
+	.iphones img {
+		width: 260px
+	}
+
+	.texto {
+		top: -60px;
+		width: 100%;
+	}
+	.teste{
+		/*position: relative;
+    	top: -80px;*/
+	}
+	.mobile{
+		display: block;
+		background-image: url('../assets/foto.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;	
+    	min-height: 250px;
+    	background-position-x: -80px;
+	}
+	.box-facaParte{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 0;
+    	border-radius: 0;
+	}
+	.fazerParte{
+		background-image: none;
+		min-height: auto;
+	}
+	
+}

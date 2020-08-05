@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84.61" height="86.065" viewBox="0 0 84.61 86.065">
+  <defs>
+    <filter id="linkedin_1_" x="2.332" y="3.786" width="82.279" height="82.279" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="linkedin" transform="translate(-1867.616 -140.987)">
+    <circle id="Elipse_31" data-name="Elipse 31" cx="27.5" cy="27.5" r="27.5" transform="translate(1884 160)" fill="#4b9719"/>
+    <g transform="matrix(1, 0, 0, 1, 1867.62, 140.99)" filter="url(#linkedin_1_)">
+      <path id="linkedin_1_2" data-name="linkedin (1)" d="M32.139,0A32.139,32.139,0,1,0,64.279,32.139,32.143,32.143,0,0,0,32.139,0ZM22.8,48.586H14.973V25.037H22.8ZM18.887,21.821h-.051a4.052,4.052,0,0,1-4.325-4.068c0-2.311,1.751-4.069,4.428-4.069a4.081,4.081,0,1,1-.052,8.137ZM51.024,48.586H43.2v-12.6c0-3.166-1.133-5.325-3.965-5.325a4.285,4.285,0,0,0-4.016,2.863,5.36,5.36,0,0,0-.257,1.91V48.586H27.132s.1-21.34,0-23.549h7.827v3.334a7.771,7.771,0,0,1,7.054-3.887c5.15,0,9.011,3.366,9.011,10.6Zm0,0" transform="translate(11.33 9.79)" fill="#fafafa"/>
+    </g>
+    <g id="Grupo_4806" data-name="Grupo 4806" transform="translate(159 3)">
+      <g id="_020202ff" data-name="#020202ff" transform="translate(1722.635 155.3) rotate(122)">
+        <path id="Caminho_3" data-name="Caminho 3" d="M.909.115C3-1.017,8,6.534,7.612,8.893c-.155,2.532-3.718,3.885-5.415,1.949C.587,9.4-1.082.941.909.115Z" transform="translate(0 0)" fill="#fff"/>
+      </g>
+      <g id="_020202ff-2" data-name="#020202ff" transform="translate(1725.535 153.052) rotate(160)">
+        <path id="Caminho_3-2" data-name="Caminho 3" d="M.909.115C3-1.017,8,6.534,7.612,8.893c-.155,2.532-3.718,3.885-5.415,1.949C.587,9.4-1.082.941.909.115Z" transform="translate(0 0)" fill="#fff"/>
+      </g>
+      <g id="_020202ff-3" data-name="#020202ff" transform="translate(1728.794 151.465) rotate(-163)">
+        <path id="Caminho_3-3" data-name="Caminho 3" d="M.909.115C3-1.017,8,6.534,7.612,8.893c-.155,2.532-3.718,3.885-5.415,1.949C.587,9.4-1.082.941.909.115Z" transform="translate(0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

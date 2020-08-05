@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="163" height="165.659" viewBox="0 0 163 165.659">
+  <g id="Logo_Pitanga" transform="translate(-179 -564)">
+    <text id="pitanga" transform="translate(180 694.659)" fill="#fff" font-size="60" font-family="Smackover"><tspan x="0" y="0">pitanga</tspan></text>
+    <g id="_fe4148ff" data-name="#fe4148ff" transform="translate(219.173 564)">
+      <path id="Caminho_4" data-name="Caminho 4" d="M63.016,7.832a15.282,15.282,0,0,1,17.668,2.849,16.443,16.443,0,0,1,4.878,11.43q.048,16.9-.008,33.814c.089,14.48-9.844,28.413-23.664,32.841a35.52,35.52,0,0,1-33.01-5.594c2.68-.443,5.441-.04,8.089-.732a22.066,22.066,0,0,0,13.6-9.739,26.1,26.1,0,0,0,3.735-14.352q-.024-18.111,0-36.221A16.066,16.066,0,0,1,63.016,7.832Z" transform="translate(-15.702 -6.189)" fill="#fff"/>
+      <path id="Caminho_5" data-name="Caminho 5" d="M25.251,54.335c8.959-2.165,18.634,4.9,19.213,14.1,1.384,9.474-7.5,18.626-17,17.563-8.17-.241-15.245-7.727-14.947-15.905A15.949,15.949,0,0,1,25.251,54.335Z" transform="translate(-12.508 -15.505)" fill="#fff"/>
+    </g>
+    <g id="_020202ff" data-name="#020202ff" transform="matrix(-0.588, 0.809, -0.809, -0.588, 221.326, 605.524)">
+      <path id="Caminho_3" data-name="Caminho 3" d="M1.036.131c2.384-1.29,8.085,7.316,7.64,10.006C8.5,13.022,4.439,14.565,2.5,12.358.67,10.71-1.233,1.072,1.036.131Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+    <g id="_020202ff-2" data-name="#020202ff" transform="translate(224.803 603.198) rotate(164)">
+      <path id="Caminho_3-2" data-name="Caminho 3" d="M1.036.131c2.384-1.29,8.085,7.316,7.64,10.006C8.5,13.022,4.439,14.565,2.5,12.358.67,10.71-1.233,1.072,1.036.131Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+    <g id="_020202ff-3" data-name="#020202ff" transform="translate(228.634 601.653) rotate(-159)">
+      <path id="Caminho_3-3" data-name="Caminho 3" d="M1.036.131c2.384-1.29,8.085,7.316,7.64,10.006C8.5,13.022,4.439,14.565,2.5,12.358.67,10.71-1.233,1.072,1.036.131Z" transform="translate(0 0)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
